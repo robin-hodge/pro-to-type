@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+html {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    height: 100%;
+    padding-top: 35px;
+}
+
+span {
+    display: inline-block;
+    padding-right: 13px;
+}
+
+#textToTypeContainer {
+    background-color: white;
+    color: black;
+    border: 60px solid white;
+    font-size: 3.4rem;
+    overflow: auto;
+    max-height: 360px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.textParagraph {
+    margin: 0;
+}
+
+#textToTypeContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.paragraph,
+#scrollDownText {
+    margin: 0;
+}
+
+#resultsPopup,
+#wordsPerMinuteContainer,
+#typingAccuracyContainer {
+    margin: 0 auto;
+}
+
+#wordsPerMinuteSubheading, #accuracySubheading {
+    margin: 20px auto;  
+}
+
+h1,
+h2,
+#rulesSubheading,
+#textsToTypeSubheading,
+#inputAndTimerContainer {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 25px auto;  
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 0px;
+}
+
+
+#rulesText {
+    max-width: 1100px;
+    margin: 40px auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+input,
+#timerSpan {
+    font-size: 3rem;
+    max-width: 400px;
+    margin: 15px;
+}
+
+#resultsPopup {
+    background-color: #FF4fa7;
+    padding: 30px;
+    max-width: 600px;
+    display: none;
+}
+
+
+#resultsSubheading {
+    margin: 0;
+}
+
+#wordsPerMinuteContainer,
+#typingAccuracyContainer {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#inputAndTimerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 10px auto;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.linkToRules,
+.linkToGame {
+    text-align: center;
+    background-color: black;
+    border: 5px solid #FF4fa7;
+    padding: 5px;
+    max-width: 520px;
+    margin: 20px auto;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+.linkToRules {
+    max-width: 250px;
+}
+
+#scrollDownText {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.hiddenLabelTextInput {
+    display: none;
+}
